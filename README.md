@@ -1,7 +1,7 @@
 # Speaker-Identification-System
 
 
-This project is an end-to-end **speaker identification system** that determines whether an uploaded audio file contains the voice of a specific target speaker (**Rowney Downey**) or not.
+This project is an end-to-end **speaker identification system** that determines whether an uploaded audio file contains the voice of a specific target speaker (**Rowdy Delaney**) or not.
 
 The system combines:
 - Audio signal processing (Mel-spectrograms)
