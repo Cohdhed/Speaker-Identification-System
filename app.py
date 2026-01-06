@@ -10,7 +10,7 @@ st.set_page_config(page_title="Speaker Identification")
 def load_transformer():
     return SpeakerIdentificationTransformer(
         model_path="latest_cnn_model.pth",
-        target_label="Rowney Downey"
+        target_label="Rowdy Delaney"
     )
 
 transformer = load_transformer()
@@ -19,7 +19,7 @@ transformer = load_transformer()
 st.title("Speaker Identification System")
 st.write("")
 uploaded_file = st.file_uploader(
-    "Upload an audio file to check if the speaker is **Rowney Downey**.",
+    "Upload an audio file to check if the speaker is **Rowdy Delaney**.",
     type=["wav", "mp3", "flac"]
 )
 
@@ -36,3 +36,4 @@ if uploaded_file:
     os.remove(audio_path)
 
     st.write(result)
+
